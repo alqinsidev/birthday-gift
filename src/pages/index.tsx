@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useSpring, animated, useChain, useSpringRef } from '@react-spring/web';
 // @ts-ignore
 import useSound from 'use-sound'
@@ -93,7 +94,7 @@ const Home = () => {
         :
         <animated.div style={fadeIn2}>
           <div className='flex flex-row justify-center bg-rose-200 py-10'>
-            <Image src={'https://firebasestorage.googleapis.com/v0/b/alqinsidev-project.appspot.com/o/bday%20nisa.png?alt=media&token=a2fae41d-6115-4d53-b2c6-3ffaa504ad1a'} width={100} height={100} />
+            <Image alt="nisa" src={'https://firebasestorage.googleapis.com/v0/b/alqinsidev-project.appspot.com/o/bday%20nisa.png?alt=media&token=a2fae41d-6115-4d53-b2c6-3ffaa504ad1a'} width={100} height={100} />
             <div className='px-2'>
               <p className='italic mt-10 text-neutral-700'>"Aku ulang tahun loh gaais"</p>
               <p className='italic text-neutral-700'>-Nisa Agustia 28 Tahun-</p>
@@ -112,11 +113,11 @@ const Home = () => {
                 <li>☑ Ternyata Cantik 😋</li>
               </ul>
             </div>
-            <Image src={"https://firebasestorage.googleapis.com/v0/b/alqinsidev-project.appspot.com/o/Screenshot_2023-08-27_at_13.48.57-removebg-preview.png?alt=media&token=64c8b288-27fb-4b62-a7b7-8160b60aac0b"} width={160} height={150} />
+            <Image alt="nisa" src={"https://firebasestorage.googleapis.com/v0/b/alqinsidev-project.appspot.com/o/Screenshot_2023-08-27_at_13.48.57-removebg-preview.png?alt=media&token=64c8b288-27fb-4b62-a7b7-8160b60aac0b"} width={160} height={150} />
           </div>
           <div className='pl-7'>
             <div className='flex flex-row items-center py-5'>
-              <Image src={"https://firebasestorage.googleapis.com/v0/b/alqinsidev-project.appspot.com/o/Screenshot_2023-08-27_at_13.45.49-removebg-preview.png?alt=media&token=f2eaa035-1f4b-4982-9653-79b5eb61b7cc"} width={220} height={150} />
+              <Image alt="nisa" src={"https://firebasestorage.googleapis.com/v0/b/alqinsidev-project.appspot.com/o/Screenshot_2023-08-27_at_13.45.49-removebg-preview.png?alt=media&token=f2eaa035-1f4b-4982-9653-79b5eb61b7cc"} width={220} height={150} />
               <animated.h2 className="text-xl font-mono">
                 Sepenggal kisah
               </animated.h2>
@@ -267,7 +268,7 @@ const Home = () => {
             </animated.div>
           </div>
           <div className='px-10 bg-slate-50 flex flex-row py-10'>
-            <Image src={'https://firebasestorage.googleapis.com/v0/b/alqinsidev-project.appspot.com/o/IMG-20230312-WA0000-removebg.png?alt=media&token=309e92d8-d2c1-422b-8f3c-59f0b313b8d1'} width={100} height={100} />
+            <Image alt="nisa" src={'https://firebasestorage.googleapis.com/v0/b/alqinsidev-project.appspot.com/o/IMG-20230312-WA0000-removebg.png?alt=media&token=309e92d8-d2c1-422b-8f3c-59f0b313b8d1'} width={100} height={100} />
             <div className='ml-3'>
               <p className='font-bold'>Do'a Untuk Ica</p>
               <p className='italic'>
